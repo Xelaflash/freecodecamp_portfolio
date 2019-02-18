@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background: #eae8dc !important;
@@ -8,6 +12,12 @@ body {
 .sep {
   width:80%;
   color:#505050;
+}
+
+.sub-title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 44px;
 }
 
 #navbar {
@@ -116,7 +126,7 @@ body {
 
 .market-text {
   max-width:700px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   margin: 50px auto 0 auto;
 }
@@ -132,11 +142,7 @@ body {
 }
 
 
-#projects-sub-title {
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 40px;
-}
+
 
 .disclaimer {
   font-style: italic;
@@ -236,6 +242,60 @@ body {
   text-decoration: none;
   background-color: #e95a51;
   color:white;
+}
+
+#contact {
+  height: 100vh;
+  padding-top:70px;
+}
+
+ul.social-buttons {
+  text-align: center;
+  margin-top: 150px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+ul.social-buttons li a {
+  width: 90px;
+  height: 90px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 34px;
+  line-height: 90px;
+  color: white;
+}
+
+.twitter {
+  background-color: #4099FF;
+}
+
+.linkedin {
+  background-color: #0277b5;
+}
+
+.github {
+  background-color: #24292e;
+}
+
+.dev {
+  background-color: black;
+}
+
+.e-mail {
+  background-color: #003366;
+}
+
+ul#social-anim li a {
+  transition: transform 0.5s ease-in-out;
+}
+
+ul#social-anim li:hover a {
+  transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
 }
 
 
