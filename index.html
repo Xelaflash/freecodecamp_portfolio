@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
 <body>
+
   <nav id="navbar">
     <div class="navbar-top">
       <div class="logo">
@@ -16,15 +17,125 @@
       </div>
       <div class="navbar-right hidden-xs hidden-sm">
         <a href="#about" class="navbar-item navbar-link">About</a>
-        <a href="#project" class="navbar-item navbar-link">Project</a>
+        <a href="#projects" class="navbar-item navbar-link">Project</a>
         <a href="#contact" class="navbar-item navbar-link">Contact</a>
       </div>
     </div>
   </nav>
-  <div class="welcome-section">
-    <h1>Hey I'm Alex</h1>
-    <p>A fullstack Web Developer</p>
-  </div>
+
+
+  <section id="welcome-section">
+    <div class="anm-text">
+      <h1>Hey I'm Alex</h1>
+      <p>A fullstack Web Developer</p>
+    </div>
+  </section>
+  <hr class="sep">
+
+
+  <section id="projects">
+    <div class="container" id="projects-page">
+      <h2 id="projects-sub-title">My Work</h2>
+
+    <div class="cards">
+
+      <div class='card' style="background-image: url('https://res.cloudinary.com/dcf4y5ngp/image/upload/f_auto,q_100/v1543603310/cabanemaii.png');">
+        <div class='info'>
+          <h1 class='title'>La cabane de Maï</h1>
+          <p class='description'>E-commerce website for an organic beauty shop. <br> Developed with Devise, Stripe and Active Admin.</p>
+          <p class="stack">Rails | Javascript | Heroku | Stripe</p>
+          <div class="card-link">
+            <a class="btn" href="https://lacabanedemaii.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class='card' style="background-image: url('https://res.cloudinary.com/dcf4y5ngp/image/upload/f_auto,q_100/v1543603694/happyseat.png');">
+        <div class='info'>
+          <h1 class='title'>Happy Seat</h1>
+          <p class='description'>Wedding seating plan generator. <br>Final bootcamp project coded with 3 teammates (not maintained)</p>
+          <p class="stack">Rails | Javascript | Heroku</p>
+          <div class="card-link">
+            <a class="btn" href="http://www.happyseat.fr/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class='card' style="background-image: url('https://res.cloudinary.com/dcf4y5ngp/image/upload/f_auto,q_100/v1543603853/pymtcc.png');">
+        <div class='info'>
+          <h1 class='title'>Pierre-Yves Mori - TCC</h1>
+          <p class='description'>Static Website for a French therapist.</p>
+          <p class="stack">Rails | Heroku</p>
+          <div class="card-link">
+            <a class="btn" href="https://www.pym-therapeute-tcc.fr" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class='card' style="background-image: url('https://res.cloudinary.com/dcf4y5ngp/image/upload/f_auto,q_100/v1543604262/fancycocktail.png');">
+        <div class='info'>
+          <h1 class='title'>Fancy Cocktail</h1>
+          <p class='description'>Cocktail Manager that stores cocktails and recipes <br> (coded during Le wagon Bootcamp).</p>
+          <p class="stack">Rails | Heroku</p>
+          <div class="card-link">
+            <a class="btn" href="https://fancy-cocktail.herokuapp.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class='card' style="background-image: url('https://res.cloudinary.com/dcf4y5ngp/image/upload/f_auto,q_100/v1543604262/goosebumps.png');">
+        <div class='info'>
+          <h1 class='title'>Goosebumps</h1>
+          <p class='description'>Middleman static website for a DJ crew.</p>
+          <p class="stack">Middleman | GitHub pages</p>
+          <div class="card-link">
+            <a class="btn" href="https://xelaflash.github.io/goosebumps/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class='card' style="background-image: url('https://res.cloudinary.com/dcf4y5ngp/image/upload/f_auto,q_100/v1543604262/railsreactchat.png');">
+        <div class='info'>
+          <h1 class='title'>Rails React chat</h1>
+          <p class='description'>Single page React live chat app, coded as <br> an exercise for my React learning.</p>
+          <p class="stack">Rails | React | Javascript | Heroku</p>
+          <div class="card-link">
+            <a class="btn" href="https://reactredux-chat.herokuapp.com/channels/Hardware" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class='card' style="background-image: url('https://res.cloudinary.com/dcf4y5ngp/image/upload/f_auto,q_100/v1543604263/wagoncities.png');">
+        <div class='info'>
+          <h1 class='title'>Wagon City</h1>
+          <p class='description'>Single page React app, coded as <br> an exercise for my React learning.</p>
+          <p class="stack">React | Javascript | GitHub pages</p>
+          <div class="card-link">
+            <a class="btn" href="https://xelaflash.github.io/wagon-cities/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class='card' style="background-image: url('https://res.cloudinary.com/dcf4y5ngp/image/upload/f_auto,q_100/v1543604263/gifs.png');">
+        <div class='info'>
+          <h1 class='title'>Gif Madness</h1>
+          <p class='description'>React gif search engine using Giphy API, coded <br> as an exercise for my React learning.</p>
+          <p class="stack">React | Javascript | GitHub pages</p>
+          <div class="card-link">
+            <a class="btn" href="https://xelaflash.github.io/xela-react-gifs/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+      <p class="disclaimer"><small>Disclaimer : apps hosted on heroku's free plan will take few times to load (server needs to wake up)</small></p>
+    </div>
+
+
+  </section>
+
+
+
+  <section id="contact">
+
+  </section>
 
 </body>
 </html>
