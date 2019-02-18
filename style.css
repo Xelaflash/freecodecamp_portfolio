@@ -11,6 +11,10 @@ body {
 }
 
 #navbar {
+  position: fixed;
+  background: #eae8dc;
+  z-index:10;
+  top: 0;
   width: 100%;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
 }
@@ -75,7 +79,7 @@ body {
 }
 
 #welcome-section {
-  height: calc(100vh - 70px);
+  height: 100vh;
   text-align: center;
   position: relative;
 }
@@ -104,12 +108,34 @@ body {
   margin: 0 auto;
 }
 
+#about {
+  height: 100vh;
+  padding-top:70px;
+}
+
+
+.market-text {
+  max-width:700px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 50px auto 0 auto;
+}
+
+#marketing-text {
+  margin-left:60px;
+}
+
+
+
+#projects {
+  padding-top: 70px;
+}
+
 
 #projects-sub-title {
-  margin-bottom: 0 !important;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 40px;
-  color:  #505050;
 }
 
 .disclaimer {
